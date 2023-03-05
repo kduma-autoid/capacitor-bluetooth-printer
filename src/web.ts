@@ -1,13 +1,29 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { BluetoothPrinterPlugin } from './definitions';
+import type { BluetoothDevice, BluetoothPrinterPlugin } from './definitions';
 
 export class BluetoothPrinterWeb
   extends WebPlugin
   implements BluetoothPrinterPlugin
 {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  connect(): Promise<void> {
+    throw this.unimplemented('Not implemented on web.');
   }
+
+  connectAndPrint(): Promise<void> {
+    throw this.unimplemented('Not implemented on web.');
+  }
+
+  disconnect(): Promise<void> {
+    throw this.unimplemented('Not implemented on web.');
+  }
+
+  list(): Promise<{ devices: BluetoothDevice[] }> {
+    throw this.unimplemented('Not implemented on web.');
+  }
+
+  print(): Promise<void> {
+    throw this.unimplemented('Not implemented on web.');
+  }
+
 }
