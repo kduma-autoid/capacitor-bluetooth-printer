@@ -1,6 +1,7 @@
 import { SplashScreen } from '@capacitor/splash-screen';
 import base64_decode from "locutus/php/url/base64_decode";
 import { BluetoothPrinter } from '@kduma-autoid/capacitor-bluetooth-printer';
+import {WebViewWatchDog} from "@kduma-autoid/capacitor-webview-watchdog";
 
 window.customElements.define(
   'capacitor-welcome',
@@ -9,6 +10,7 @@ window.customElements.define(
       super();
 
       SplashScreen.hide();
+      WebViewWatchDog.ping();
 
       const root = this.attachShadow({ mode: 'open' });
 
