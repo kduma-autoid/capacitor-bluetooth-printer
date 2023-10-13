@@ -9,4 +9,7 @@ include ':capacitor-splash-screen'
 project(':capacitor-splash-screen').projectDir = new File('../node_modules/@capacitor/splash-screen/android')
 
 include ':kduma-autoid-capacitor-bluetooth-printer'
-project(':kduma-autoid-capacitor-bluetooth-printer').projectDir = new File('../node_modules/@kduma-autoid/capacitor-bluetooth-printer/android')
+project(':kduma-autoid-capacitor-bluetooth-printer').projectDir = new File('../../android')
+
+include ':kduma-autoid-capacitor-webview-watchdog'
+project(':kduma-autoid-capacitor-webview-watchdog').projectDir = new File('../node_modules/@kduma-autoid/capacitor-webview-watchdog/android')
