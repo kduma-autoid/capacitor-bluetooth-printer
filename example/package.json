@@ -1,6 +1,6 @@
 {
   "name": "capacitor-app",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "SPP Printer plugin for Capacitor.js",
   "main": "index.js",
   "keywords": [
