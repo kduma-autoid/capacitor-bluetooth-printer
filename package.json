@@ -1,6 +1,6 @@
 {
   "name": "@kduma-autoid/capacitor-bluetooth-printer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Allows printing on SPP BT printers",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
