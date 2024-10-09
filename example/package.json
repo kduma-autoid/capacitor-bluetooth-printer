@@ -25,7 +25,7 @@
     "@capacitor/ios": "^6.0.0",
     "@capacitor/splash-screen": "^6.0.0",
     "@kduma-autoid/capacitor-bluetooth-printer": "file:..",
-    "@kduma-autoid/capacitor-webview-watchdog": "^0.1.0",
+    "@kduma-autoid/capacitor-webview-watchdog": "^0.2.0",
     "@trapezedev/configure": "^7.0.10",
     "locutus": "^2.0.16"
   },
