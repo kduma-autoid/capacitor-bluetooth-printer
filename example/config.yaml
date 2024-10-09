@@ -1,8 +1,8 @@
 vars:
   BUILD_NUMBER:
-    default: 5
+    default: 6
   VERSION_NAME:
-    default: 0.2.0
+    default: 0.2.1
   APP_NAME:
     default: SPP Printer plugin for Capacitor.js
   SHORT_APP_NAME:
