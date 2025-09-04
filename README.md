@@ -2,6 +2,8 @@
 
 Allows printing on SPP BT printers
 
+Check full documentation here: [opensource.duma.sh/libraries/capacitor/bluetooth-printer](https://opensource.duma.sh/libraries/capacitor/bluetooth-printer)
+
 ## Install
 
 ```bash
